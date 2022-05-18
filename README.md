@@ -20,7 +20,7 @@ go-ftx is a go client library for [FTX API Document](https://docs.ftx.com).
 ## Installation
 
 ```
-$ go get -u github.com/go-numb/go-ftx
+$ go get -u github.com/nles/go-ftx
 ```
 
 ## Usage
@@ -30,14 +30,14 @@ package main
 import (
 	"fmt"
 	"github.com/dustin/go-humanize"
-	"github.com/go-numb/go-ftx/auth"
-	"github.com/go-numb/go-ftx/rest"
-	"github.com/go-numb/go-ftx/rest/private/orders"
+	"github.com/nles/go-ftx/auth"
+	"github.com/nles/go-ftx/rest"
+	"github.com/nles/go-ftx/rest/private/orders"
 	//"log"
-	"github.com/go-numb/go-ftx/rest/private/account"
-	"github.com/go-numb/go-ftx/rest/public/futures"
-	"github.com/go-numb/go-ftx/rest/public/markets"
-	"github.com/go-numb/go-ftx/types"
+	"github.com/nles/go-ftx/rest/private/account"
+	"github.com/nles/go-ftx/rest/public/futures"
+	"github.com/nles/go-ftx/rest/public/markets"
+	"github.com/nles/go-ftx/types"
 	"github.com/labstack/gommon/log"
 	"sort"
 	"strings"
@@ -155,8 +155,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/go-numb/go-ftx/realtime"
-	"github.com/go-numb/go-ftx/auth"
+	"github.com/nles/go-ftx/realtime"
+	"github.com/nles/go-ftx/auth"
 
 	"github.com/labstack/gommon/log"
 )
@@ -203,10 +203,10 @@ func main() {
 ```
 
 
-## Author
+## Original Author
 
-[@_numbP](https://twitter.com/_numbP)
+[github.com/go-numb/go-ftx](https://github.com/go-numb/go-ftx)
 
 ## License
 
-[MIT](https://github.com/go-numb/go-ftx/blob/master/LICENSE)
+[MIT](https://github.com/nles/go-ftx/blob/master/LICENSE)
