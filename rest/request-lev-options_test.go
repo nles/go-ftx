@@ -7,14 +7,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-numb/go-ftx/auth"
-	"github.com/go-numb/go-ftx/types"
+	"github.com/nles/go-ftx/auth"
+	"github.com/nles/go-ftx/types"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-numb/go-ftx/rest"
-	"github.com/go-numb/go-ftx/rest/private/leveraged"
-	"github.com/go-numb/go-ftx/rest/private/options"
+	"github.com/nles/go-ftx/rest"
+	"github.com/nles/go-ftx/rest/private/leveraged"
+	"github.com/nles/go-ftx/rest/private/options"
 )
 
 /*
